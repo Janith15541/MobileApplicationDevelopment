@@ -71,26 +71,26 @@
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteY="2dp" />
 
+            //2
+
             <TextView
                 android:id="@+id/textView71"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Algorithem"
+                android:text="Algorithms"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.267"
+                app:layout_constraintHorizontal_bias="0.326"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="8dp" />
-
-            //2
+                tools:layout_editor_absoluteY="7dp" />
 
             <TextView
 
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="4dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.451"
@@ -114,10 +114,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="MNS"
+                android:text="Mechanical Engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.288"
+                app:layout_constraintHorizontal_bias="0.418"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView31"
                 tools:ignore="MissingConstraints" />
@@ -127,7 +127,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -163,7 +163,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="DBMS"
+                android:text="Particle Physics"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.288"
@@ -176,7 +176,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -223,7 +223,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="CONTRALLER"
+                android:text="Nuclear Fission"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.288"
@@ -236,7 +236,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -283,7 +283,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="C#"
+                android:text="English Language"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.288"
@@ -296,7 +296,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Decription: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -344,7 +344,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="Ias"
+                android:text="Newtonian Physics"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.288"
@@ -357,7 +357,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -410,7 +410,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
         android:layout_marginTop="59dp"
-        android:text="click to download button to download file..."
+        android:text="click to download"
         android:textColor="@color/white" />
 
     <TextView
@@ -419,9 +419,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="15dp"
-        android:text="PLYMOUNTH DOCUMENT"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="28dp"
+        android:text="University of Plymouth"
         android:textColor="#F8DF00"
         android:textSize="20dp" />
 
