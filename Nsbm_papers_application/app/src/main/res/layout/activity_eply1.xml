@@ -30,10 +30,10 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="96dp"
                 android:layout_height="37dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="56dp"
                 android:background="@drawable/down"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintHorizontal_bias="0.958"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView31"
                 tools:ignore="MissingConstraints" />
@@ -48,7 +48,7 @@
                 app:layout_constraintHorizontal_bias="0.949"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="44dp" />
 
             <ImageView
                 android:id="@+id/imageView31"
@@ -77,20 +77,20 @@
                 android:id="@+id/textView71"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="engineering mechanic"
+                android:text="Mechanical Engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.359"
+                app:layout_constraintHorizontal_bias="0.422"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="26dp" />
 
             <TextView
 
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="4dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.451"
@@ -114,10 +114,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="  Digital System"
+                android:text="Advanced Mathematics"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.314"
+                app:layout_constraintHorizontal_bias="0.417"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView31"
                 tools:ignore="MissingConstraints" />
@@ -127,7 +127,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -163,7 +163,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="electrical engineering"
+                android:text="Electrical engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.377"
@@ -176,7 +176,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -193,18 +193,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
+            //4
+
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="96dp"
                 android:layout_height="37dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="48dp"
                 android:background="@drawable/down"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintHorizontal_bias="0.958"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6"
                 tools:ignore="MissingConstraints" />
-            //4
 
             <ImageView
 
@@ -223,7 +224,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="voltage engineering"
+                android:text="Core Engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.382"
@@ -236,7 +237,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -253,18 +254,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar3" />
 
+            //5
+
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="96dp"
                 android:layout_height="37dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="56dp"
                 android:background="@drawable/down"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintHorizontal_bias="0.949"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar3"
                 tools:ignore="MissingConstraints" />
-            //5
 
             <ImageView
 
@@ -283,10 +285,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="inteligent system"
+                android:text="NanoScale Engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintHorizontal_bias="0.414"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar5"
                 tools:ignore="MissingConstraints" />
@@ -296,7 +298,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay question included"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -344,10 +346,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="probability"
+                android:text="Calculus for Engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.324"
+                app:layout_constraintHorizontal_bias="0.427"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar6"
                 tools:ignore="MissingConstraints" />
@@ -357,7 +359,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -398,8 +400,8 @@
         android:layout_height="77dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginEnd="-141dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="-154dp"
         app:srcCompat="@drawable/ply" />
 
     <TextView
@@ -408,9 +410,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="59dp"
-        android:text="click to download button to download file..."
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="58dp"
+        android:text="Click to Download"
         android:textColor="@color/white" />
 
     <TextView
@@ -421,7 +423,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="46dp"
         android:layout_marginTop="15dp"
-        android:text="PLYMOUNTH DOCUMENT"
+        android:text="University of Plymouth"
         android:textColor="#F8DF00"
         android:textSize="20dp" />
 
