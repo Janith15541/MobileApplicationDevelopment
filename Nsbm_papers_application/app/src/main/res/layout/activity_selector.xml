@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selector"
+    android:background="@drawable/d">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Select Your Faculty"
+        android:textColor="#035906"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/secondbtn"
+        android:text="FACULTY OF COMPUTING"
+        android:textColor="#00FF00"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="222dp"
+        android:background="@drawable/secondbtn"
+        android:text="FACULTY OF ENGINEERING"
+        android:textColor="#00FF00"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="342dp"
+        android:background="@drawable/secondbtn"
+        android:text="FACULTY OF BUSINESS"
+        android:textColor="#00FF00"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

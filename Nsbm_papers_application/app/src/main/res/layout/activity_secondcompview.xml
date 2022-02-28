@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondcompview"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Computing Faculty!"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF5733 "/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="53dp"
+        android:text="Senior Lecturer/Dean Dr.Rasika Ranaweera"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="24dp"
+        android:autoLink="email"
+        android:text="ranaweera.r@nsbm.ac.lk"
+        android:textColorLink="#6042f5"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="36dp"
+        android:text="Senior Lecturer/Head Mr.Chaminda Wijesinghe"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="29dp"
+        android:autoLink="email"
+        android:text="chamindaw@nsbm.ac.lk"
+        android:textColorLink="#6042f5"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="27dp"
+        android:text="Senior Lecturer/Head Ms.Manoja Weerasekara"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="26dp"
+        android:text="manoja@nsbm.ac.lk"
+        android:autoLink="email"
+        android:textColorLink="#6042f5"
+        android:textSize="23dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="34dp"
+        android:text="Senior Lecturer/Head Mr.Mohamed Shafraz"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="26dp"
+        android:text="shafraz@nsbm.ac.lk"
+        android:autoLink="email"
+        android:textColorLink="#6042f5"
+        android:textSize="23dp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nsbmclub"
+    android:background="@drawable/image1"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        android:text="sports club"
+        android:textSize="20dp"
+        app:backgroundTint="@null"
+
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/black"
+        android:text="rotaract club"
+        android:textSize="20dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/black"
+        android:text="music club"
+        android:textSize="20dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/black"
+        android:text="leo club"
+        android:textSize="20dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button10"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/black"
+        android:text="gavel club"
+        android:textSize="20dp"
+        app:backgroundTint="@null" />
+
+</RelativeLayout>
