@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#053205"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="#F4E8E8"
+        android:paddingTop="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:context=".sepapers">
+
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                tools:ignore="MissingConstraints" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:background="@drawable/down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="4dp"
+                android:background="#332929"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton1" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.003"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/pdf1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="2dp" />
+
+            //2
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="engineering mechanic"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.359"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="4dp"
+                android:text="description: 40 msq and essay question included"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.451"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                app:srcCompat="@drawable/pdf1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="  Digital System"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView941"
+                android:layout_width="172dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="56dp"
+                android:text="description: 40 msq and essay question included"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="4dp"
+                android:background="#332929"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+            //3
+
+
+            <ImageView
+
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                app:srcCompat="@drawable/pdf1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="electrical engineering"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.377"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="56dp"
+                android:text="description: 40 msq and essay question included"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <ImageView
+                android:id="@+id/bar3"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="4dp"
+                android:background="#332929"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                tools:ignore="MissingConstraints" />
+            //4
+
+            <ImageView
+
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar3"
+                app:srcCompat="@drawable/pdf1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="voltage engineering"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar3"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="56dp"
+                android:text="description: 40 msq and essay question included"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar3" />
+
+            <ImageView
+                android:id="@+id/bar5"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="4dp"
+                android:background="#332929"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar3" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar3"
+                tools:ignore="MissingConstraints" />
+            //5
+
+            <ImageView
+
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar5"
+                app:srcCompat="@drawable/pdf1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="inteligent system"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar5"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="56dp"
+                android:text="description: 40 msq and essay question included"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar5" />
+
+            <ImageView
+                android:id="@+id/bar6"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="4dp"
+                android:background="#332929"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar5" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar5"
+                tools:ignore="MissingConstraints" />
+            //6
+
+            <ImageView
+
+                android:layout_width="78dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar6"
+                app:srcCompat="@drawable/pdf1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="probability"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.324"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar6"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+
+                android:layout_width="172dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="56dp"
+                android:text="description: 40 msq and essay question included"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar6" />
+
+            <ImageView
+                android:id="@+id/bar7"
+                android:layout_width="400dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="4dp"
+                android:background="#332929"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar3" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bar6"
+                tools:ignore="MissingConstraints" />
+            //7
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="-141dp"
+        app:srcCompat="@drawable/ply" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="59dp"
+        android:text="click to download button to download file..."
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="15dp"
+        android:text="PLYMOUNTH DOCUMENT"
+        android:textColor="#F8DF00"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+
