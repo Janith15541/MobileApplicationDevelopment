@@ -400,8 +400,8 @@
         android:layout_height="77dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginEnd="-141dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="-154dp"
         app:srcCompat="@drawable/ply" />
 
     <TextView
@@ -412,7 +412,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
         android:layout_marginTop="59dp"
-        android:text="click to download button to download file..."
+        android:text="Click to Download icon"
         android:textColor="@color/white" />
 
     <TextView
@@ -423,7 +423,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="46dp"
         android:layout_marginTop="15dp"
-        android:text="PLYMOUNTH DOCUMENT"
+        android:text="University of Plymouth"
         android:textColor="#F8DF00"
         android:textSize="20dp" />
 
