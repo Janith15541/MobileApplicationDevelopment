@@ -410,7 +410,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
         android:layout_marginTop="59dp"
-        android:text="click to download button to download file..."
+        android:text="click to download"
         android:textColor="@color/white" />
 
     <TextView
