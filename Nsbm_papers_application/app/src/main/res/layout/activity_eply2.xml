@@ -75,7 +75,7 @@
                 android:id="@+id/textView71"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Algorithems"
+                android:text="Algorithms"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.267"
@@ -223,10 +223,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="CONTRALLER"
+                android:text="Chemical Engineering"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.288"
+                app:layout_constraintHorizontal_bias="0.4"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar3"
                 tools:ignore="MissingConstraints" />
@@ -236,7 +236,7 @@
                 android:layout_width="172dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="56dp"
-                android:text="description: 40 msq and essay question included"
+                android:text="Description: 40 MCQ and essay questions"
                 android:textSize="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.447"
@@ -395,11 +395,11 @@
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
-        android:layout_height="77dp"
+        android:layout_height="59dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginEnd="-141dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="-125dp"
         app:srcCompat="@drawable/ply" />
 
     <TextView
@@ -408,9 +408,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="59dp"
-        android:text="click to download button to download file..."
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="57dp"
+        android:text="Download your papers here"
         android:textColor="@color/white" />
 
     <TextView
