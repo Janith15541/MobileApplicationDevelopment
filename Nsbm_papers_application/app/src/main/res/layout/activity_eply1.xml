@@ -30,10 +30,10 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="96dp"
                 android:layout_height="37dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="56dp"
                 android:background="@drawable/down"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintHorizontal_bias="0.958"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView31"
                 tools:ignore="MissingConstraints" />
@@ -48,7 +48,7 @@
                 app:layout_constraintHorizontal_bias="0.949"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="44dp" />
 
             <ImageView
                 android:id="@+id/imageView31"
@@ -193,18 +193,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
+            //4
+
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="96dp"
                 android:layout_height="37dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="48dp"
                 android:background="@drawable/down"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintHorizontal_bias="0.958"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6"
                 tools:ignore="MissingConstraints" />
-            //4
 
             <ImageView
 
@@ -253,18 +254,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar3" />
 
+            //5
+
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="96dp"
                 android:layout_height="37dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="56dp"
                 android:background="@drawable/down"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintHorizontal_bias="0.949"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bar3"
                 tools:ignore="MissingConstraints" />
-            //5
 
             <ImageView
 
